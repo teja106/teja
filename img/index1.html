@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no">
+    <title>LipidMarketing LLP</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+      <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">  
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>  
+      <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <style media="all">
+        * {
+            margin: 0 !important;
+            padding: 0 !important;
+            box-sizing: border-box !important;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            height: 100% !important;
+            background: url(img/CHahI9.jpg);
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .mmc {
+            margin-left: 10% !important;
+            margin-top: 19% !important;
+        }
+
+        .mc {
+            /*background: white;*/
+            background: rgba(255, 255, 255, 0.8);
+            height: 200px;
+            width: 500px;
+            padding: 10px !important;
+            border: 5px solid #f9ca24;
+            position:relative;
+            box-shadow: 1px 10px 21px -5px rgba(255, 255, 255, 0.45);
+            overflow: visible!important;
+        }
+
+        .arrows .al {
+            position: absolute;
+            left: -50px;
+            color: white;
+            font-size: 20px;
+            bottom: 70px;
+        }
+
+        .arrows .ar {
+            position: absolute;
+            right: -50px;
+            color: white;
+            font-size: 20px;
+            bottom: 70px;
+        }
+        #al2,#ar2,#ar3,#al3{
+            overflow: visible;
+        }
+        .mc h1 {
+            color: #eb4d4b;
+            font-weight: 900;
+        }
+
+        .mc p {
+            text-align: justify;
+        }
+
+        .mc .sc {
+            font-size: 12px;
+        }
+
+        footer {
+            margin-top: auto;
+
+        }
+
+
+        /*nav styles*/
+        /*nav styles*/
+        /*body content*/
+        .sidebar {
+            top: 45%;
+            right: 0;
+            z-index: 1;
+        }
+
+        .smicon {
+            width: 35px;
+            height: 35px;
+            overflow: hidden;
+            background: white;
+            border: 1px solid #e6e6e6;
+
+        }
+
+        .customnav {
+            position: fixed;
+            z-index: 2;
+        }
+
+        .nav_toggle {
+            position: absolute;
+            right: -38px;
+            outline:none;
+        }
+
+        .nav-list {
+            width: 300px;
+            height: 100vh;
+            background: #30336b;
+        }
+
+        .nav-item {
+            line-height: 40px;
+            border-bottom: 1px solid black;
+        }
+
+        .nav-link {
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+            text-align:center;
+        }
+                .bmsub .nav-link {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .nav-link:hover {
+            background: white;
+            color: black;
+        }
+        .active{
+            background: white;
+            color: black;
+        }
+
+        /*body content*/
+    </style>
+</head>
+
+<body>
+    <!--sideicons-->
+    <!--SideBar for social media-->
+    <div class="sidebar position-fixed">
+        <div class="smicon">
+            <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.svg" class="img-fluid" alt=""></a>
+        </div>
+        <div class="smicon">
+            <a href="mailto:" target="_top"><img src="img/gmail.svg" class="img-fluid" alt=""></a>
+        </div>
+        <div class="smicon">
+            <a href="https://twitter.com/" target="_blank"><img src="img/twitter.svg" class="img-fluid" alt=""></a>
+        </div>
+        <div class="smicon">
+            <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.svg" class="img-fluid" alt=""></a>
+        </div>
+    </div>
+    <!--endofsideicons-->
+
+    <header>
+        <nav class="bg-secondary customnav">
+            <button class="nav_toggle" style="background:#30336b;padding:10px!important;border:none!important;outline:none!important;">
+                <span class="hamburger"><i class="nb fa fa-bars" style="color:White;"></i></span>
+            </button>
+            <ul class="nav-list">
+                <li class="nav-item" style="background:white;box-shadow:1px 11px 21px 2px rgba(0,0,0,0.45);"><a href="" class="nav-link"><img src="img/logo.png" alt="" class="img-fluid" width="300" height="150"></a></li>
+                <div class="mt-5">
+                    <li class="nav-item"><a href="" class="nav-link">Homepage</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Services</a></li>
+                    <li class="nav-item" style="text-align: center;"><a href="#" class="bmc bm" style="color: white;text-decoration: none;">Business Model <i class="ic fa fa-angle-down"></i></a></li>
+                    <div class="bmsub" style="box-shadow:inset 0px 1px 21px -1px rgba(0,0,0,0.45)">
+                        <li class="" style="text-align: center;"><a href="" class="" style="color:#30336b;text-decoration: none;line-height: 40px;">Privacy Policy</a></li>
+                        <li class="" style="text-align: center;border-bottom: 1px solid black;"><a href="" class="" style="color:#30336b;text-decoration: none;line-height: 40px;">Rules of Conduct</a></li>
+                    </div>
+                    <script>
+                        $('.bmsub').hide();
+                        $('.bm').click(function(){
+                            $('.bmsub').addClass('active');
+//                            $('.bmc').css('color','black');
+                            
+                            $('.ic').toggleClass('fa-angle-down fa-angle-up');
+                            $('.bmsub').slideToggle();
+                        });
+                        $('.nav-list').hide();
+                        $(function(){
+                            function runEffect(){
+                                $('.nav-list').toggle('slide',300);
+                            };
+                                $('.nav_toggle').click(function(){
+                                    runEffect();
+                                    $('.nb').toggleClass('fa-bars fa-close');
+                                    return false;
+                        });
+                        });
+                    </script>
+                    <li class="nav-item"><a href="" class="nav-link">How it works</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Contact US</a></li>
+            <li class="nav-item" style="text-align: center;"><a href="#" class="jbm" style="color: white;text-decoration: none;">Join LIPID <i class="jic fa fa-angle-down"></i></a></li>
+                    <div class="jbmsub" style="box-shadow:inset 0px 1px 21px -1px rgba(0,0,0,0.45)">
+                        <li class="" style="text-align: center;"><a href="index.php" class="" style="color:#30336b;text-decoration: none;line-height: 40px;">Register</a></li>
+                        <li class="" style="text-align: center;border-bottom: 1px solid black;"><a href="memlogin.php" class="" style="color:#30336b;text-decoration: none;line-height: 40px;">Login</a></li>
+                    </div>
+                    <script>
+                        $('.jbmsub').hide();
+                        $('.jbm').click(function(){
+                            $('.jbmsub').addClass('active');
+//                            $('.bmc').css('color','black');
+                            
+                            $('.jic').toggleClass('fa-angle-down fa-angle-up');
+                            $('.jbmsub').slideToggle();
+                        });
+                    </script>
+                </div>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="mmc">
+            <div class="mc" id="mc1">
+                <h1>LIPID MARKETING LLP</h1>
+                <p class="fc">Lipid Marketing is above all a family company.</p>
+                <p class="sc">Rajasekhar and Ram lead a diverse global management team that supports Independent Business Owners and their goals</p>
+                <div class="buttons mt-2">
+                    <a href="" class="" style="background:#f0932b;color:white;border-radius: 20px;padding: 6px!important;font-size: 12px;display: inline-block;margin-right: 10px!important;box-shadow:1px 11px 21px -12px rgba(0,0,0,0.45);">Get Started</a>
+                    <a href="" class="" style="background:#6ab04c;color:white;border-radius: 20px;padding: 6px!important;font-size: 12px;display: inline-block;box-shadow:1px 11px 21px -12px rgba(0,0,0,0.45);">Download</a>
+                </div>
+                <div class="arrows">
+                    <div class="al" id="al1"><i class="fa fa-arrow-circle-left"></i></div>
+                    <div class="ar" id="ar1"><i class="fa fa-arrow-circle-right"></i></div>
+                </div>
+
+            </div>
+            <div class="mc" id="mc2">
+                <h1>LIPID MARKETING LLP<span style="font-size: 15px;">features</span></h1>
+                <!--                <p class="fc">Lipid Market is above all a family company.</p>-->
+                <p class="sc">At Lipid Marketing we believe that to sell a quality product you need to understand it and use it with confidence.</p>
+                <div class="buttons mt-2">
+                    <a href="" class="" style="background:#f0932b;color:white;border-radius: 20px;padding: 6px!important;font-size: 12px;display: inline-block;margin-right: 10px!important;box-shadow:1px 11px 21px -12px rgba(0,0,0,0.45);">Get Started</a>
+                    <a href="" class="" style="background:#6ab04c;color:white;border-radius: 20px;padding: 6px!important;font-size: 12px;display: inline-block;box-shadow:1px 11px 21px -12px rgba(0,0,0,0.45);">Download</a>
+                </div>
+                <div class="arrows">
+                    <div class="al" id="al2"><i class="fa fa-arrow-circle-left"></i></div>
+                    <div class="ar" id="ar2"><i class="fa fa-arrow-circle-right"></i></div>
+                </div>
+
+            </div>
+            <div class="mc" id="mc3">
+                <h1>100+EXPERIENCE</h1>
+                <!--                <p class="fc">Lipid Market is above all a family company.</p>-->
+                <p class="sc">Your life doesn't have to be a trade-off between making the money you need
+                    And having the flexibility and time to live your life to the fullest.</p>
+                <div class="buttons mt-2">
+                    <a href="" class="" style="background:#f0932b;color:white;border-radius: 20px;padding: 6px!important;font-size: 12px;display: inline-block;margin-right: 10px!important;box-shadow:1px 11px 21px -12px rgba(0,0,0,0.45);">Get Started</a>
+                    <a href="" class="" style="background:#6ab04c;color:white;border-radius: 20px;padding: 6px!important;font-size: 12px;display: inline-block;box-shadow:1px 11px 21px -12px rgba(0,0,0,0.45);">Download</a>
+                </div>
+                <div class="arrows">
+                    <div class="al" id="al3"><i class="fa fa-arrow-circle-left"></i></div>
+                    <div class="ar" id="ar3"><i class="fa fa-arrow-circle-right"></i></div>
+                </div>
+            </div>
+        </div>
+        <script>
+            $('#mc2').hide();
+            $('#mc3').hide();
+            $('#ar1').click(function() {
+                $('#mc1').hide();
+                $('#mc2').show();
+            });
+            $('#al1').click(function() {
+                $('#mc1').hide();
+                $('#mc3').show();
+            });
+            $('#ar2').click(function() {
+                $('#mc2').hide();
+                $('#mc3').show();
+            });
+            $('#al2').click(function() {
+                $('#mc1').show();
+                $('#mc2').hide();
+            });
+            $('#ar3').click(function() {
+                $('#mc1').show();
+                $('#mc3').hide();
+            });
+            $('#al3').click(function() {
+                $('#mc2').show();
+                $('#mc3').hide();
+            });
+        </script>
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
